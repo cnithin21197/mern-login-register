@@ -4,7 +4,7 @@ import axios from 'axios'
 
 export default function App() {
 
-    const rootUrl = "http://localhost:3001/"
+    const rootUrl = "https://mern-login-register.onrender.com/"
 
     const [registerNumber,setRegisterNumber] = useState("")
     const [registerPassword,setRegisterPassword] = useState("")
